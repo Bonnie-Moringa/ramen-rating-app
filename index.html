@@ -3,15 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Ramen Menu</title>
+    <script src="index.js"></script>
 </head>
 <link rel="stylesheet" href="style.css">
 
-
-
 <body>
+    <header>
     <h1>Ramen Rater</h1>
-    <script src="index.js"></script>
+    </header>
+    <div id="ramen-menu"></div>
+    <div id="ramen-detail">
+        <h4>Click on a ramen to see deatils</h4>
+    </div>
+    
+    <h3>Add a new ramen</h3>
+    <form id="new-ramen">
+        <input type="text" name="name" placeholder="Ramen Name" required>
+        <input type="text" name="resturant" placeholder="Resturant" required>
+        <input type="text" name="image" placeholder="Image URL" required>
+        <input type="number" name="rating" placeholder="Rating (1-5)" required>
+        <input type="text" name="comment" placeholder="Comment" required>
+        <button type="submit">Submit Form</button>
+    </form>
 
 </body>
 </html>
