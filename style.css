@@ -3,3 +3,9 @@ h1{
     color: white;
     text-align: center;
 }
+.ramen-img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    cursor: pointer;
+}
